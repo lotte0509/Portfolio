@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="output.css" type="text/css">
+    <script src="assets/script/script.js" async defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Lotte Korsholm | Frontendudvikler</title>
+    <meta name="description"
+        content="En frontendudviklers professionelle portfolio. Læs her om mit arbejde med forskellige projekter">
+</head>
+
+<body>
+    <header class="w-full sm:flex fixed justify-evenly sm:justify-between py-4 px-6 md:px-12 lg:px-24">
+        <a href="index.html"><img src="assets/images/logo2.svg" class="w-64 my-4 mx-auto sm:mx-8" alt="logo"></a>
+        <nav>
+            <ul class="flex my-6 mx-auto w-max text-darkBlue font-bold text-lg">
+                <li><a href="index.html" class="p-2 mx-2 relative">Hjem</a></li>
+                <li><a href="cases.html" class="current p-2 mx-2 relative">Cases</a></li>
+                <li><a href="om_mig.html" class="p-2 mx-2 relative">Om mig</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="w-10/12 mx-auto pt-40 lg:pt-48">
+            <h1 class="text-center mb-6">Svalegaarden MEST</h1>
+        <img src="assets/images/svale_devices.png" class="w-64 mx-auto" alt="Svalegaarden MEST">
+    </main>
+    <section class="w-10/12 mx-auto md:flex justify-between mt-10">
+        <article class="sm:mr-8">
+            <h2 class="text-green text-xl font-bold">Kort om projektet</h2>
+            <p class="text-sm sm:text-base mb-4">
+                Svalegaarden MEST er en virksomhed, som tilbyder catering og festlokaler, og som fungerer som restaurant
+                om fredagen. Vores opgave gik ud på at redesigne deres website bl.a. ud fra en styleguide.
+            </p>
+            <a href="http://mmd.ucn.dk/class/mmda0919/1081537/Svalegaarden_MEST" target="_blank" class="visitBtn">Besøg
+                websitet</a>
+        </article>
+        <aside class="bg-green rounded-lg mt-6 md:mt-0 pb-2">
+            <h2 class="text-lg text-white font-bold p-2">Fokuspunkter</h2>
+            <div class="flex flex-wrap">
+                <p class="bg-white w-auto rounded-full px-2 py-1 ml-2 my-1">Omsætte styleguide til kode</p>
+                <p class="bg-white w-auto rounded-full px-2 py-1 ml-2 my-1">Strukturering af indhold</p>
+                <p class="bg-white w-auto rounded-full px-2 py-1 ml-2 my-1">Usability</p>
+                <p class="bg-white w-auto rounded-full px-2 py-1 ml-2 my-1">Semantisk struktur</p>
+                <p class="bg-white w-auto rounded-full px-2 py-1 ml-2 my-1">Responsivt grid</p>
+            </div>
+        </aside>
+    </section>
+    <section class="w-10/12 mx-auto md:mr-auto mt-6">
+        <h2 class="text-green text-xl font-bold">Vores løsning</h2>
+        <p class="md:w-8/12">
+            Vi arbejdede i dette projekt i særlig grad med at skabe et elegant og luksuriøst website, der afspejlede
+            Svalegaarden og hvad de står for. Det designmæssige udtryk kom frem ved hjælp af den styleguide, vi havde
+            fået udleveret fra dem, samt ved hjælp af brugerundersøgelser, hvor vi havde lagt et fokus på, hvad brugeren
+            mente om luksus. Dette projekt lå tidligt på uddannelsen, hvilket gjorde at især kodedelen var udfordrende.
+            Det vi var udfordret med, var placering af indhold samt funktionalitet via CSS.
+        </p>
+    </section>
+    <section class="w-10/12 mx-auto md:mr-auto mt-6">
+        <h2 class="text-green text-xl font-bold">Kodeprocessen</h2>
+        <p class="md:w-8/12">
+            I kodning af sitet blev der arbejdet med semantiske tags, som skulle hjælpe browseren med at forstå, hvad det
+            forskellige indhold handler om. Der blev arbejdet med grid for at skabe et produkt, som kunne bruges på alle
+            enheder uanset størrelse. Dette blev gjort ved, at der i HTML blev lavet en grid-container indeholdende de
+            elementer, som skulle være responsive. Elementerne fik classes, som blev brugt i CSS, hvor de fik et
+            tilhørende grid-area navn. Disse blev placeret gennem grid-template-areas.
+        </p>
+        <img class="mt-6 w-10/12" src="./assets/images/case1_html.png" alt="HTML fra sitet">
+        <img class="mt-6 w-8/12" src="./assets/images/case1_css.png" alt="CSS fra sitet">
+    </section>
+    <a href="#"><img src="assets/images/up.svg" class="w-14 fixed bottom-8 right-8" alt="Scroll op"></a>
+    <footer class="bg-darkBlue text-white p-6 mt-10">
+        <div class="w-10/12 mx-auto flex flex-col sm:flex-row justify-between">
+        <p class="text-xs">Copyright &copy; 2021 | Lotte Korsholm</p>
+        <div class="my-4 sm:my-0">
+            <h3 class="font-semibold">Kontakt</h3>
+            <p>
+                E-mail: <a href="mailto:lotsenkj@gmail.com">lotsenkj@gmail.com</a><br>
+                Tlf.: 28101380
+            </p>
+        </div>
+        <div class="flex">
+            <a href="mailto:lotsenkj@gmail.com"><img src="assets/images/envelope.svg" class="w-8" alt="E-mail"></a>
+            <a href="https://www.linkedin.com/in/lotte-korsholm-jensen-a451281a7/" target="_blank"><img
+                    src="assets/images/linkedin.svg" class="w-8 ml-2" alt="Linkedin"></a>
+            <a href="https://github.com/lotte0509?tab=repositories" target="_blank"><img src="assets/images/github.svg"
+                    class="w-8 ml-2" alt="Github"></a>
+            <!-- Iconer fra Flaticon.com -->
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>

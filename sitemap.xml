@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lottekorsholm.dk/</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/index.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/cases.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/om_mig.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/assets/pdf/CV_Lotte_Korsholm.pdf</loc>
+  <lastmod>2021-01-13T13:20:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/case1.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/case2.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/case3.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lottekorsholm.dk/case4.html</loc>
+  <lastmod>2021-01-13T13:19:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

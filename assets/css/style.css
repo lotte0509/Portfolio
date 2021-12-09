@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+
+:root {
+  --darkBlue: #045676;
+  --blue: #028090;
+  --green: #00a896;
+  --salmon: #e4af8b;
+  --cream: #f9f0e0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply font-sans;
+  background-image: url("assets/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: 440px;
+  background-position: top right;
+}
+@media screen and (min-width: 1024px) {
+  body {
+      background-size: 540px;
+  }
+}
+
+h1 {
+  @apply font-bold text-2xl text-gray-600;
+}
+h1.index {
+  @apply text-3xl;
+}
+.visitBtn {
+  @apply bg-green rounded-full shadow hover:shadow-none p-2 font-semibold text-white;
+}
+
+.current:after {
+  width: 100%;
+  left: 0;
+  background: var(--darkBlue);
+}
+
+li a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+}
+
+li a:hover:after {
+  width: 100%;
+  left: 0;
+  background: var(--darkBlue);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.box1 {
+  background-image: radial-gradient(#a4d8b9, var(--green));
+}
+
+.box2 {
+  background-image: radial-gradient(#f3dccd, var(--salmon));
+}
+
+.box3 {
+  background-image: radial-gradient(#f3dccd, var(--salmon));
+}
+
+.box4 {
+  background-image: radial-gradient(#8fbbc2, var(--blue));
+}
+
+@media screen and (max-width: 479px) {
+  .cases .box1 {
+    width: 280px;
+  }
+}
+
+@tailwind utilities;

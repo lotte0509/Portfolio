@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4"
+  },
+  "scripts": {
+    "style": "npx tailwindcss build assets/css/style.css -o output.css",
+    "style:build": "NODE_ENV=production npx tailwindcss build assets/css/style.css -o output.css",
+    "prod": "cross-env NODE_ENV=production npx tailwindcss build assets/css/style.css -o output.css",
+    "production": "cross-env NODE_ENV=production postcss assets/css/style.css -o output.css"
+  }
+}
