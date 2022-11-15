@@ -16,14 +16,14 @@ const currentYearSpan = document.querySelector('.currentYear');
 currentYearSpan.innerHTML = currentYear;
 
 if (document.querySelector('.currentAge')) {
-  var currentDate = '"' + currentDay + '/' + currentMonth + '/' + currentYear + '"';
-  var currentAge = calculateAge("05/09/1999", currentDate);
-  function calculateAge(birthDate, otherDate) {
-    birthDate = new Date(birthDate);
-    otherDate = new Date(otherDate);
-    var currentAge = (otherDate.getFullYear() - birthDate.getFullYear());
-    if (otherDate.getMonth() < birthDate.getMonth() ||
-      otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
+  var currentDate = '"' + currentYear + '/' + currentMonth + '/' + currentDay + '"';
+  var currentAge = calculateAge("1999/09/05", currentDate);
+  function calculateAge(birthDate, todaysDate) {
+    var birthDate = new Date(birthDate);
+    var todaysDate = new Date(todaysDate);
+    var currentAge = (todaysDate.getFullYear() - birthDate.getFullYear());
+    if (todaysDate.getMonth() < birthDate.getMonth() ||
+      todaysDate.getMonth() == birthDate.getMonth() && todaysDate.getDate() < birthDate.getDate()) {
       currentAge--;
     }
     const currentAgeSpan = document.querySelectorAll('.currentAge');
